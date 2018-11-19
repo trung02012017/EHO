@@ -125,7 +125,7 @@ class ElephantHerdingOptimization(object):
                     new_clan[i, j] = 10
         return new_clan
 
-    # get result of new generation
+    # get best result of generation
     def get_result(self, clan_collection):
 
         num_clans = len(clan_collection)
@@ -148,8 +148,7 @@ class ElephantHerdingOptimization(object):
 
     def run(self):
 
-        print("start...")
-
+        result = []
         population = self.initialize_population()
         clan_collection = self.get_clans(population)
 
@@ -160,12 +159,14 @@ class ElephantHerdingOptimization(object):
                 new_clan_i = self.update_position(clan)
                 new_generation.append(new_clan_i)
 
-            print(self.get_result(new_generation), i+1)
+            # print(self.get_result(new_generation), i+1)
             clan_collection = new_generation
 
-        print(self.get_result(clan_collection))
+            result.append(self.get_result(clan_collection))
 
-        print("finish....")
+        return result
+
+
 
 
 
