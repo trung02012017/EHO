@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e1dd1a9-e363-4eb5-8098-682a95691d45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EHO.py" beforeDir="false" afterPath="$PROJECT_DIR$/EHO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,31 +17,37 @@
     <session id="-1446545195">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="png" value="11" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Image" value="11" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6906" />
+          <entry key="py" value="13760" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6906" />
+          <entry key="Python" value="13760" />
         </counts>
       </usages-collector>
     </session>
@@ -47,43 +55,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EHO.py">
+        <entry file="file://$PROJECT_DIR$/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2746">
-              <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+            <state relative-caret-position="447">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1542595568040" expanded="true" signature="75:76" ph="..." />
-                <marker date="1542595568040" expanded="true" signature="75:81" ph="..." />
-                <marker date="1542595568040" expanded="true" signature="611:973" ph="..." />
-                <marker date="1542595568040" expanded="true" signature="1786:2201" ph="..." />
-                <marker date="1542595568040" expanded="true" signature="2712:2713" ph="..." />
-                <marker date="1542595568040" expanded="true" signature="4000:4532" ph="..." />
-                <marker date="1542595568040" expanded="true" signature="4526:4532" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/EHO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="2686">
+              <caret line="275" column="51" selection-start-line="275" selection-start-column="51" selection-end-line="275" selection-end-column="51" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
-                <marker date="1542596930840" expanded="true" signature="112:260" ph="..." />
-                <marker date="1542596930840" expanded="true" signature="272:1213" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1543609274201" expanded="true" signature="5100:5414" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +112,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/example.py" />
-        <option value="$PROJECT_DIR$/EHO.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/EHO.py" />
       </list>
     </option>
   </component>
@@ -125,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,11 +144,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../BNN_GoogleTrace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -271,20 +274,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27901787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30483872" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38870966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -298,38 +309,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/[1000, 10, 0.5, 0.1, 10, 1000].png" />
+    <entry file="file://$PROJECT_DIR$/[1000, 10, 0.5, 0.1, 20, 1000].png" />
+    <entry file="file://$PROJECT_DIR$/[1000, 10, 0.5, 0.1, 20, 1000]EHO_time = 0.067.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 0.019GA_time = 0.015.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 0.019 and GA_time = 0.01.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 0.067 and GA_time = 0.009.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 540.844 and GA_time = 88.225.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 21.998 and GA_time = 29.474.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 24.007 and GA_time = 25.303.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 22.267 and GA_time = 29.519.png" />
+    <entry file="file://$PROJECT_DIR$/EHO_time = 30.294 and GA_time = 25.892.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EHO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2746">
-          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+        <state relative-caret-position="447">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1542595568040" expanded="true" signature="75:76" ph="..." />
-            <marker date="1542595568040" expanded="true" signature="75:81" ph="..." />
-            <marker date="1542595568040" expanded="true" signature="611:973" ph="..." />
-            <marker date="1542595568040" expanded="true" signature="1786:2201" ph="..." />
-            <marker date="1542595568040" expanded="true" signature="2712:2713" ph="..." />
-            <marker date="1542595568040" expanded="true" signature="4000:4532" ph="..." />
-            <marker date="1542595568040" expanded="true" signature="4526:4532" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="170">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-            <marker date="1542596930840" expanded="true" signature="112:260" ph="..." />
-            <marker date="1542596930840" expanded="true" signature="272:1213" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EHO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="275" column="51" selection-start-line="275" selection-start-column="51" selection-end-line="275" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1543609274201" expanded="true" signature="5100:5414" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,24 +1,34 @@
 from EHO import ElephantHerdingOptimization
+from EHO import GenericAlgorithm
 import matplotlib.pyplot as plt
+import time
 
 
-def save_fig(result, combination):
+def save_fig(EHO_result, GA_result, EHO_time, GA_time):
     plt.figure(2)
-    plt.plot(result)
-    name = 'result/'
-    name += str(combination)
+    plt.plot(EHO_result, '-r', label='EHO')
+    plt.plot(GA_result, '-b', label="GA")
+    plt.legend()
+    name = ''
+    name += 'EHO_time = '
+    name += str(EHO_time)
+    name += ' and GA_time = '
+    name += str(GA_time)
+    name += ' (Grieward function)'
     name += '.png'
     plt.savefig(name)
-    plt.close()
+    plt.show()
 
 
 def main():
-    pop_sizes = [40, 60, 80, 100, 120, 140, 160, 180, 200]
-    clan_sizes = [5, 10, 20]
-    alphas = [0.4, 0.5, 0.6, 0.7]
-    betas = [0.1, 0.2, 0.3]
+
+###### EHO #######
+    pop_sizes = [50]
+    clan_sizes = [10]
+    alphas = [0.6]
+    betas = [0.1]
     dim_size = 50
-    max_generation = 1000
+    max_generation = 3000
 
     combinations = []
 
@@ -30,7 +40,7 @@ def main():
                     combinations.append(combination)
 
     for combination in combinations:
-        print(combination)
+        start_time = time.time()
         pop_size = combination[0]
         clan_size = combination[1]
         alpha = combination[2]
@@ -39,8 +49,30 @@ def main():
         max_generation = combination[5]
 
         EHO = ElephantHerdingOptimization(pop_size, clan_size, dim_size, max_generation, alpha, beta)
-        result = EHO.run()
-        save_fig(result, combination)
+
+        EHO_result = EHO.run()
+
+        end_time = time.time()
+        execute_EHO_time = end_time - start_time
+        EHO_time = round(execute_EHO_time, 3)
+
+##### GA ########
+
+    pop_size = 100
+    gen_size = 50
+    num_selected_parents = int(pop_size / 2)
+    crossover_rate = 0.4
+    mutation_rate = 0.05
+    epochs = 3000
+
+    start_time = time.time()
+    GA = GenericAlgorithm(pop_size, gen_size, num_selected_parents, crossover_rate, mutation_rate, epochs)
+    GA_result, population = GA.run()
+    end_time = time.time()
+    execute_EHO_time = end_time - start_time
+    GA_time = round(execute_EHO_time, 3)
+
+    save_fig(EHO_result=EHO_result, GA_result=GA_result, EHO_time=EHO_time, GA_time=GA_time)
 
 
 if __name__ == "__main__":
